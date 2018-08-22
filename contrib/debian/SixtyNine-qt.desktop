@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SXT
+Comment=SXT P2P Cryptocurrency
+Comment[fr]=SXT, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SXT, eşten eşe kriptografik sanal para birimi
+Exec=SixtyNine-qt %u
+Terminal=false
+Type=Application
+Icon=SixtyNine128
+MimeType=x-scheme-handler/SixtyNine;
+Categories=Office;Finance;

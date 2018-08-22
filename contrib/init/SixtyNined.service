@@ -1,0 +1,26 @@
+[Unit]
+Description=SXT's distributed currency daemon
+After=network.target
+
+[Service]
+User=SixtyNine
+Group=SixtyNine
+
+Type=forking
+PIDFile=/var/lib/SixtyNined/SixtyNined.pid
+
+ExecStart=/usr/bin/SixtyNined -daemon -pid=/var/lib/SixtyNined/SixtyNined.pid \
+          -conf=/etc/SixtyNine/SixtyNine.conf -datadir=/var/lib/SixtyNined
+
+ExecStop=-/usr/bin/SixtyNine-cli -conf=/etc/SixtyNine/SixtyNine.conf \
+         -datadir=/var/lib/SixtyNined stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
