@@ -1,7 +1,7 @@
 
 SXT Core integration/staging repository
 =====================================
-[![GitHub version](https://badge.fury.io/gh/SXT%2FSXT.svg)](https://badge.fury.io/gh/SXT%2FSXT)
+[![GitHub version](https://badge.fury.io/gh/SXT%2FSXT.svg)](https://badge.fury.io/gh/SixtyNineDev%2FSixtyNine-Coin)
 
 SXT is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _xSXT_.
