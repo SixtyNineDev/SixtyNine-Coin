@@ -95,7 +95,7 @@ public:
 		pchMessageStart[1] = 0x5a;
 		pchMessageStart[2] = 0xc4;
 		pchMessageStart[3] = 0x54;
-        vAlertPubKey = ParseHex("0483b8e5ba98e8144fa8a2aad4820f97d0219ab4de725ea5bf1d9b3117d9b3d634c484d5ce92d57cfcd2c4052330475bf009d673ce5e60b38d7b3c368a2b357cf4");
+        vAlertPubKey = ParseHex("04386b53a1650b37db025288601378621f9e3b97e01213f085e6a6235e7121cc27d9f95dbf760f71c9bcbc34904752a26670dd3fd0c27d2e01e035cc43e2ca9d99");
         nDefaultPort = 36969;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // SixtyNine starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000000;
@@ -113,7 +113,7 @@ public:
         txNew.vout.resize(1);		
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0483b8e5ba98e8144fa8a2aad4820f97d0219ab4de725ea5bf1d9b3117d9b3d634c484d5ce92d57cfcd2c4052330475bf009d673ce5e60b38d7b3c368a2b357cf4") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04386b53a1650b37db025288601378621f9e3b97e01213f085e6a6235e7121cc27d9f95dbf760f71c9bcbc34904752a26670dd3fd0c27d2e01e035cc43e2ca9d99") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -158,7 +158,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
         nPoolMaxTransactions = 3;
-        strSporkKey = "0483b8e5ba98e8144fa8a2aad4820f97d0219ab4de725ea5bf1d9b3117d9b3d634c484d5ce92d57cfcd2c4052330475bf009d673ce5e60b38d7b3c368a2b357cf4";
+        strSporkKey = "04386b53a1650b37db025288601378621f9e3b97e01213f085e6a6235e7121cc27d9f95dbf760f71c9bcbc34904752a26670dd3fd0c27d2e01e035cc43e2ca9d99";
         strObfuscationPoolDummyAddress = "STHprUHgceGPTTaAmajjcELftpUTKNhyJt";
         nStartMasternodePayments = 1521792000; //Fri, 23 Mar 2018 8:00 UTC
 
