@@ -6,7 +6,7 @@ SXT Core integration/staging repository
 SXT is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _xSXT_.
 - Fast transactions featuring guaranteed zero confirmation transactions (_SwiftTX_).
-- Current Masternode technology used to secure the network and provide the above features, each Masternode is secured with a collateral of 1000 SXT.
+- Current Masternode technology used to secure the network and provide the above features, each Masternode is secured with a collateral of 6969 SXT.
 
 More information at [http://www.SixtyNinecoin.com](http://www.SixtyNinecoin.com)
 
@@ -35,8 +35,8 @@ Wallet Port: 41798, RPC Port: 41799
 |----------------------------|---------------------------|---------------------------|
 | 2 - 8868                     |  0% ( 0 SXt)          | 100% ( 2 SXT )              |
 | 8 869 - 17 696            | 99.5% ( 692.5 SXT)    | 0.5% (3.5 SXT)    |
-| 17 697 - 18 968     | 75% (51.75 SXT)   | 25% (17.25 SXT)  |
-| 18 989 - 27 696   | 70% (28 SXT) | 30% (12 SXT)  |
+| 17 697 - 18 968     | 75% (126.75 SXT)   | 25% (42.25 SXT)  |
+| 18 989 - 27 696   | 70% (48.3 SXT) | 30% (20.7 SXT)  |
 | 27 697 - 35 696   | 70% (35 SXT) | 30% (15 SXT)  | 
 | 35 697 - 69 695   | 70% (52.5SXT) | 30% (22.5 SXT)  | 
 | 69 696 - 139 695   | 75% (75 SXT) | 25% (25 SXT)  |
