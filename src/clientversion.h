@@ -1,4 +1,5 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
+
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -39,7 +40,6 @@
 
 //! Copyright string used in Windows .rc files
 #define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Dash Core Developers, 2018-" STRINGIZE(COPYRIGHT_YEAR) " The SixtyNine Core Developers"
-
 /**
  * SixtyNined-res.rc includes this file, but it cannot cope with real c++ code.
  * WINDRES_PREPROC is defined to indicate that its pre-processor is running.
