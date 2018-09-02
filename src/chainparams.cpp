@@ -101,7 +101,7 @@ public:
         nSubsidyHalvingInterval = 210000000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nLastPOWBlock = 1210;
+        nLastPOWBlock = 8869;
         nTargetTimespan = 1 * 69; // SixtyNine: 69 seconds
         nTargetSpacing = 1 * 69;  // SixtyNine: 69 seconds
         nMaturity = 69;
