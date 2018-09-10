@@ -101,7 +101,7 @@ public:
         nSubsidyHalvingInterval = 210000000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nLastPOWBlock = 8869;
+        nLastPOWBlock = 8969;
         nTargetTimespan = 1 * 69; // SixtyNine: 69 seconds
         nTargetSpacing = 1 * 69;  // SixtyNine: 69 seconds
         nMaturity = 69;
@@ -139,6 +139,8 @@ public:
         vSeeds.push_back(CDNSSeedData("138.197.132.53", "138.197.132.53"));
         vSeeds.push_back(CDNSSeedData("198.199.68.6", "198.199.68.6"));
         vSeeds.push_back(CDNSSeedData("159.89.121.189", "159.89.121.189"));
+	vSeeds.push_back(CDNSSeedData("178.128.239.244", "178.128.239.244"));
+	vSeeds.push_back(CDNSSeedData("178.128.239.243", "178.128.239.243"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18); //8
@@ -203,7 +205,7 @@ public:
         nSubsidyHalvingInterval = 210000000; //aka never
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nLastPOWBlock = 8869;
+        nLastPOWBlock = 8969;
         nTargetTimespan = 1 * 231;
         nTargetSpacing = 1 * 213;
         nMaturity = 10;
